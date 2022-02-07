@@ -20,5 +20,5 @@ try {
     console.log(`http://localhost:${PORT}`);
   });
 } catch (err) {
-  console.log(`Ошибка при подключении: ${err.toString()}`);
+  console.log(`Error: ${err.toString()}`);
 }
